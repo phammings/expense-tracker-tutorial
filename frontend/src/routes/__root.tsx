@@ -4,11 +4,11 @@ import { type QueryClient } from "@tanstack/react-query";
 
 interface MyRouterContext {
     queryClient: QueryClient;
-  }
-  
-  export const Route = createRootRouteWithContext<MyRouterContext>()({
-    component: Root,
-  });
+}
+
+export const Route = createRootRouteWithContext<MyRouterContext>()({
+component: Root,
+});
 
 function NavBar() {
     return (
